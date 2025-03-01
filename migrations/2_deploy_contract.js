@@ -1,5 +1,5 @@
-var Migrations = artifacts.require("./Election.sol");
+var Election = artifacts.require("./Election.sol");
 
 module.exports = function (deployer) {
-  deployer.deploy(Migrations);
+  deployer.deploy(Election);
 };
